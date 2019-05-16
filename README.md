@@ -8,6 +8,8 @@
 
 ##  演示
 
+- 微信搜索小程序 **CNodeM**
+
 ![](https://s2.ax1x.com/2019/05/16/EbWU5q.gif)
 
 
