@@ -1,0 +1,31 @@
+<import src="/components/load.vue.wxml" /><template name="98958bf4">
+  <view class="_div data-v-460c4774"><template wx:if="{{!loaded || !md}}" data="{{...$root[$kk+'0'], $root}}" is="3612de36"></template>
+    <view wx:if="{{loaded}}" class="_div data-v-460c4774">
+      <view class="_div data-v-460c4774 author" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="{{data.author.avatar_url}}" class="_img data-v-460c4774"></image>
+        {{data.author.loginname}}
+      </view>
+      <view class="_div data-v-460c4774 title">{{data.title}}</view>
+      <towxml md="{{md}}" wx:if="{{md}}" class="_towxml data-v-460c4774"></towxml>
+      <view class="_div data-v-460c4774 info"> 阅读 {{data.visit_count}}
+        <view class="_div data-v-460c4774 collect" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">{{isCollect ? '取消收藏' : '收藏'}}</view>
+      </view>
+      <view class="_div data-v-460c4774 comments">
+        <view class="_div data-v-460c4774 comment" wx:key="item" key="{{item}}" wx:for="{{comments}}" wx:for-index="index" wx:for-item="item">
+          <view class="_div data-v-460c4774 author">
+            <view class="_div data-v-460c4774 img" bindtap="handleProxy" data-eventid="{{'2_'+index}}" data-comkey="{{$k}}">
+              <image src="{{item.author.avatar_url}}" class="_img data-v-460c4774"></image>
+            </view>
+            <view class="_div data-v-460c4774 info">
+              <view class="_div data-v-460c4774 name">{{item.author.loginname}}</view>
+              <view class="_div data-v-460c4774 time">
+                {{item.create_at}} • 第{{item.order}}楼 </view>
+            </view>
+            <view class="_div data-v-460c4774 ups">赞 {{item.ups.length}}</view>
+          </view>
+          <towxml md="{{item.content}}" class="_towxml data-v-460c4774"></towxml>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

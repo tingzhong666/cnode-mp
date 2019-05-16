@@ -1,0 +1,8 @@
+<import src="/components/user.vue.wxml" />
+<import src="/components/fnlist.vue.wxml" /><template name="08cd02d1">
+  <view class="_div data-v-ea35deea">
+    <view style="margin-top: 20rpx;" class="_div data-v-ea35deea"></view> <template bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'0'], $root}}" is="6712bd4a"></template>
+    <view style="margin-top: 20rpx;" class="_div data-v-ea35deea"></view> <template bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'1'], $root}}" is="284727a5"></template>
+    <view class="_div data-v-ea35deea logout" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}"> 退出登录 </view>
+  </view>
+</template>

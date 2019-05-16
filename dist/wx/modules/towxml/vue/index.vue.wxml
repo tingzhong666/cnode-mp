@@ -1,0 +1,3 @@
+<import src="/modules/towxml/vue/entry.vue.wxml" /><template name="0bfdbbc4">
+  <view class="_div data-v-1b1c10e4"><template bindtouchstart="handleProxy" bindtouchmove="handleProxy" bindtouchcancel="handleProxy" bindtouchend="handleProxy" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'0'], $root}}" is="0d9031be"></template></view>
+</template>

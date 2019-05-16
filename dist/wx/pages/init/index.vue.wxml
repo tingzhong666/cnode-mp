@@ -1,0 +1,5 @@
+<template name="b16db916">
+  <view class="_div data-v-6ce5d9ef">
+    <image src="/static/images/logo_mp.png" class="_img data-v-6ce5d9ef" style=" {{style}}"></image>
+  </view>
+</template>

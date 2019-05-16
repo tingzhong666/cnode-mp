@@ -1,0 +1,15 @@
+@import "../../common/vendor.wxss";
+
+.li.data-v-631a37fa {
+  background: #fff;
+  color: #71777c;
+  border-bottom: 1rpx solid #eee;
+  padding: 20rpx;
+}
+.li.data-v-631a37fa:active {
+  background-color: #f6f6f6;
+}
+.li .title.data-v-631a37fa {
+  font-size: 30rpx;
+  color: #333;
+}

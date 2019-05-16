@@ -1,0 +1,36 @@
+@import "../../common/vendor.wxss";
+
+.scan.data-v-1156fe00 {
+  margin-top: 20rpx;
+  background-color: #fff;
+  padding: 30rpx 0;
+  display: flex;
+  color: #71777c;
+}
+.scan .iconfont.data-v-1156fe00 {
+  flex: 1;
+  font-size: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scan ._span.data-v-1156fe00:last-child {
+  flex: 5;
+  display: flex;
+  align-items: center;
+  font-size: 50rpx;
+  padding-left: 10rpx;
+}
+.course.data-v-1156fe00 {
+  margin-top: 20rpx;
+  background-color: #fff;
+  padding: 0 20rpx 20rpx 20rpx;
+  font-size: 35rpx;
+  font-weight: 700;
+}
+.course .title.data-v-1156fe00 {
+  padding: 40rpx 0 30rpx 0;
+}
+.course .content image.data-v-1156fe00 {
+  width: 100%;
+}

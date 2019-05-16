@@ -1,0 +1,13 @@
+<template name="6712bd4a">
+  <view class="_div data-v-0fb67efa">
+    <view class="_div data-v-0fb67efa user {{hover ? 'hover' : ''}}" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+      <view class="_div data-v-0fb67efa img">
+        <image src="{{img}}" class="_img data-v-0fb67efa"></image>
+      </view>
+      <view class="_div data-v-0fb67efa info">
+        <view class="_div data-v-0fb67efa name">{{name}}</view>
+        <view class="_div data-v-0fb67efa github"><label class="_span data-v-0fb67efa iconfont icon-GitHub"></label> @{{github}}</view>
+      </view>
+    </view>
+  </view>
+</template>

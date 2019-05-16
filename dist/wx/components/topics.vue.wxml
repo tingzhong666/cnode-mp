@@ -1,0 +1,35 @@
+<import src="/components/load.vue.wxml" /><template name="c68e4f3a">
+  <view class="_div data-v-3156f15c"><template wx:if="{{!list}}" data="{{...$root[$kk+'0'], $root}}" is="3612de36"></template>
+    <view class="_div data-v-3156f15c list" wx:if="{{list}}">
+      <scroll-view scroll-y lower-threshold="500" bindscrolltolower="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_scroll-view data-v-3156f15c" style=" {{'height: ' + height + 'px;'}}">
+        <view class="_div data-v-3156f15c li" wx:key="item.id" key="{{item.id}}" bindtap="handleProxy" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item">
+          <view class="_div data-v-3156f15c author">
+            <view class="_div data-v-3156f15c img">
+              <image src="{{item.author.avatar_url}}" alt class="_img data-v-3156f15c"></image>
+            </view>
+            <view class="_div data-v-3156f15c info">
+              <view class="_div data-v-3156f15c name">{{item.author.loginname}}</view>
+              <view class="_div data-v-3156f15c time"> 发布于 {{item.create_at}} • 新回复 {{item.last_reply_at}}
+              </view>
+            </view>
+            <view class="_div data-v-3156f15c tab">{{item.tab}}</view>
+          </view>
+          <view class="_div data-v-3156f15c topic">
+            <view class="_div data-v-3156f15c title"><label class="_span data-v-3156f15c badge" wx:if="{{item.badge}}">{{item.badgeT}}</label>
+              {{item.title}}
+            </view>
+            <view class="_div data-v-3156f15c content">{{item.content}}</view>
+          </view>
+          <view class="_div data-v-3156f15c action">
+            <view class="_div data-v-3156f15c container"><label class="_span data-v-3156f15c iconfont icon-pinglun"></label>
+              {{item.reply_count}}
+            </view>
+            <view class="_div data-v-3156f15c container"><label class="_span data-v-3156f15c iconfont icon-liulanliang"></label>
+              {{item.visit_count}}
+            </view>
+          </view>
+        </view> <template wx:if="{{downed}}" data="{{...$root[$kk+'1'], $root}}" is="3612de36"></template>
+      </scroll-view>
+    </view>
+  </view>
+</template>

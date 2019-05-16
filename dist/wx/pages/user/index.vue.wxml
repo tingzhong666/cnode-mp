@@ -1,0 +1,6 @@
+<import src="/components/user.vue.wxml" />
+<import src="/components/fnlist.vue.wxml" /><template name="c4a48720">
+  <view class="_div data-v-634a72ea"><template data="{{...$root[$kk+'0'], $root}}" is="6712bd4a"></template>
+    <view class="_div data-v-634a72ea hr"></view> <template bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'1'], $root}}" is="284727a5"></template>
+  </view>
+</template>

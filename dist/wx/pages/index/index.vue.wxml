@@ -1,0 +1,13 @@
+<import src="/components/tab.vue.wxml" />
+<import src="/components/topics.vue.wxml" /><template name="417cb42e">
+  <view class="_div data-v-08864829">
+    <view class="_view data-v-08864829 tabs"><template bindtap="handleProxy" bindrefresh="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'0'], $root}}" is="3e0c0b34"></template></view>
+    <view class="_div data-v-08864829 list" animation="{{animationData}}">
+      <view class="_div data-v-08864829 li"><template bindtap="handleProxy" binddown="handleProxy" label="全部" data-eventid="{{'1'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'1'], $root}}" is="c68e4f3a"></template></view>
+      <view class="_div data-v-08864829 li"><template bindtap="handleProxy" binddown="handleProxy" label="精华" data-eventid="{{'2'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'2'], $root}}" is="c68e4f3a"></template></view>
+      <view class="_div data-v-08864829 li"><template bindtap="handleProxy" binddown="handleProxy" label="分享" data-eventid="{{'3'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'3'], $root}}" is="c68e4f3a"></template></view>
+      <view class="_div data-v-08864829 li"><template bindtap="handleProxy" binddown="handleProxy" label="问答" data-eventid="{{'4'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'4'], $root}}" is="c68e4f3a"></template></view>
+      <view class="_div data-v-08864829 li"><template bindtap="handleProxy" binddown="handleProxy" label="招聘" data-eventid="{{'5'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'5'], $root}}" is="c68e4f3a"></template></view>
+    </view>
+  </view>
+</template>

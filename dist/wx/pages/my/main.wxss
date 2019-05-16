@@ -1,0 +1,14 @@
+@import "../../common/vendor.wxss";
+
+.logout.data-v-ea35deea {
+  color: #c00;
+  display: flex;
+  justify-content: center;
+  font-size: 35rpx;
+  background-color: #fff;
+  margin-top: 20rpx;
+  padding: 30rpx 0;
+}
+.logout.data-v-ea35deea:active {
+  background-color: #f6f6f6;
+}

@@ -1,0 +1,7 @@
+<import src="/modules/towxml/vue/render/index.vue.wxml" /><template name="0d9031be">
+  <view class="_div data-v-2eab2084 {{'h2w h2w-' + content.theme}}">
+    <view class="_div data-v-2eab2084 h2w__main">
+      <block wx:key="index" key="{{index}}" wx:for="{{content.child}}" wx:for-index="index" wx:for-item="item"><template bindtouchstart="handleProxy" bindtouchmove="handleProxy" bindtouchcancel="handleProxy" bindtouchend="handleProxy" bindtap="handleProxy" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}" data="{{...$root[$kk+'0_'+index], $root}}" is="26d99520"></template></block>
+    </view>
+  </view>
+</template>

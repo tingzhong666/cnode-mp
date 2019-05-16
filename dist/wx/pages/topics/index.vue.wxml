@@ -1,0 +1,8 @@
+<template name="d84e966e">
+  <view class="_div data-v-631a37fa">
+    <view class="_div data-v-631a37fa li" wx:key="item" key="{{item}}" bindtap="handleProxy" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item">
+      <view class="_div data-v-631a37fa title">{{item.title}}</view>
+      {{item.author.loginname}} {{item.last_reply_at}}
+    </view>
+  </view>
+</template>

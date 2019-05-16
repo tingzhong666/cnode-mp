@@ -1,0 +1,15 @@
+<template name="2fdb4880">
+  <view class="_div data-v-1156fe00">
+    <view class="_div data-v-1156fe00 scan" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"><label class="_span data-v-1156fe00 iconfont icon-saoma"></label> <label class="_span data-v-1156fe00">扫码登录</label></view>
+    <view class="_div data-v-1156fe00 course">
+      <view class="_div data-v-1156fe00 title"> 1.登录 CNode 中文社区网页端后，进入设置 </view>
+      <view class="_div data-v-1156fe00 content">
+        <image src="/static/images/course1.png" class="_img data-v-1156fe00"></image>
+      </view>
+      <view class="_div data-v-1156fe00 title"> 1.滑到网页底端，扫描二维码登录 </view>
+      <view class="_div data-v-1156fe00 content">
+        <image src="/static/images/course2.png" class="_img data-v-1156fe00"></image>
+      </view>
+    </view>
+  </view>
+</template>

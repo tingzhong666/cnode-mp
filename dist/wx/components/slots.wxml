@@ -1,0 +1,5 @@
+<import src="/components/tab.vue.wxml" />
+<import src="/components/topics.vue.wxml" />
+<import src="/components/load.vue.wxml" />
+<import src="/components/user.vue.wxml" />
+<import src="/components/fnlist.vue.wxml" />

@@ -1,0 +1,9 @@
+<template name="3e0c0b34">
+  <view class="_div data-v-0323a7e6 tab">
+    <view class="_div data-v-0323a7e6 item {{item.active ? 'active' : ''}}" wx:key="item.label" key="{{item.label}}" bindtap="handleProxy" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}" wx:for="{{tabs}}" wx:for-index="index" wx:for-item="item">
+      {{item.label}}
+    </view>
+    <view class="_div data-v-0323a7e6 down-line" animation="{{animationData}}"></view>
+    <view class="_div data-v-0323a7e6 iconfont icon-shuaxin" animation="{{refreshA}}" bindtransitionend="handleProxy" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" style=" {{style}}"></view>
+  </view>
+</template>

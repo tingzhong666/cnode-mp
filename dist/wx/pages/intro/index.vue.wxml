@@ -1,0 +1,5 @@
+<template name="2125a9fa">
+  <view class="_div data-v-18b1cd43">
+    <towxml md="{{data}}" wx:if="{{data}}" class="_towxml data-v-18b1cd43"></towxml>
+  </view>
+</template>

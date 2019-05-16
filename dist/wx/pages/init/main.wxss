@@ -1,0 +1,9 @@
+@import "../../common/vendor.wxss";
+
+page {
+  background-color: #fff;
+}
+._img.data-v-6ce5d9ef {
+  width: 85%;
+  height: 150rpx;
+}

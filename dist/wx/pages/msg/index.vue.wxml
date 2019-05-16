@@ -1,0 +1,15 @@
+<template name="8e5077d0">
+  <view class="_div data-v-95e811d0">
+    <view wx:if="{{!logined}}" class="_div data-v-95e811d0 not"><label class="_span data-v-95e811d0 iconfont icon-xinxi"></label> <label class="_span data-v-95e811d0">未登录</label></view>
+    <view wx:if="{{logined}}" class="_div data-v-95e811d0">
+      <view class="_div data-v-95e811d0 handle" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"><label class="_span data-v-95e811d0 iconfont icon-quanbuyidu"></label> 清除未读 </view>
+      <view class="_div data-v-95e811d0 li" wx:key="item" key="{{item}}" bindtap="handleProxy" data-eventid="{{'2_'+index}}" data-comkey="{{$k}}" wx:for="{{msg}}" wx:for-index="index" wx:for-item="item">
+        <view class="_div data-v-95e811d0 img" bindtap="handleProxy" data-eventid="{{'1_'+index}}" data-comkey="{{$k}}">
+          <image src="{{item.author.avatar_url}}" class="_img data-v-95e811d0"></image>
+        </view>
+        <view class="_div data-v-95e811d0 info"><label class="_span data-v-95e811d0 green">{{item.author.loginname}}</label> <label class="_span data-v-95e811d0">回复了问题</label> <label class="_span data-v-95e811d0 green">{{item.topic.title}}</label></view>
+        <view class="_div data-v-95e811d0 red" wx:if="{{!item.has_read}}"></view>
+      </view>
+    </view>
+  </view>
+</template>

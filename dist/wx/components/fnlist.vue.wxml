@@ -1,0 +1,9 @@
+<template name="284727a5">
+  <view class="_div data-v-86357ec4">
+    <view class="_div data-v-86357ec4 li" wx:key="item.label" key="{{item.label}}" bindtap="handleProxy" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item">
+      <view class="_div data-v-86357ec4 fonticon"><label class="_span data-v-86357ec4 {{item.fonticon}}"></label></view>
+      <view class="_div data-v-86357ec4 label">{{item.label}}</view>
+      <view class="_div data-v-86357ec4 count">{{item.count}}</view>
+    </view>
+  </view>
+</template>
